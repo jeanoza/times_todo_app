@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&family=Grenze+Gotisch:wght@500&display=swap');
-    body {
-        font-family: 'Varela Round', sans-serif;
-    }
-    /* .js-weather {
-        font-family: 'Grenze Gotisch', cursive;
-
-    } */
-
+@import "main.css";
+@import "center.css";
 .js-toDoList{
     font-style: italic;
 }
