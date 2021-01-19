@@ -3,12 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Something</title>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="js-clock">
       <h1>00:00</h1>
     </div>
-    <script src="clock.js"></script>
+    <form class="js-greetingForm form">
+      <input type="text" placeholder="What is your name?" />
+    </form>
+    <h4 class="js-greetings greetings"></h4>
+    <form class="js-toDoForm">
+      <input type="text" placeholder="Write a to do" />
+    </form>
+    <h3>ToDo List</h3>
+    <ul class="js-toDoList"></ul>
+    <h3>Achevés</h3>
+    <ul class="js-finishedList"></ul>
+    <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/bg.js"></script>
   </body>
 </html>
