@@ -7,23 +7,46 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="js-clock">
-      <h1>00:00</h1>
-    </div>
-    <form class="js-greetingForm form">
-      <input type="text" placeholder="What is your name?" />
-    </form>
-    <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
-      <input type="text" placeholder="Write a to do" />
-    </form>
-    <h3>ToDo List</h3>
-    <ul class="js-toDoList"></ul>
-    <h3>Achevés</h3>
-    <ul class="js-finishedList"></ul>
+    <main class="container">
+      <div class="js-clock container__clock">
+        <h1>00:00</h1>
+      </div>
+      <form class="js-greetingForm container__greetingform">
+        <input type="text" placeholder="What is your name?" />
+      </form>
+      <h4 class="js-greetings container__greetings"></h4>
+      <form class="js-toDoForm container__toDoForm">
+        <input type="text" placeholder="Write a to do" />
+      </form>
+      <section class="container__lists">
+        <article class="container__lists__toDoList">
+          <h3>ToDo List</h3>
+          <ul class="js-toDoList"></ul>
+        </article>
+        <article class="container__lists__finishedList">
+          <h3>Achevés</h3>
+          <ul class="js-finishedList"></ul>
+        </article>
+      </section>
+    </main>
     <script src="js/clock.js"></script>
     <script src="js/greeting.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/bg.js"></script>
   </body>
 </html>
+
+<!-- gobelins photo reference:
+
+  https://www.leparisien.fr/resizer/UODDsIxlwEfuQpQgMaJ4XCQhiQM=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/5B6YJARWVXKMFILKPTAW7XK6QU.jpg
+
+  https://cdn.radiofrance.fr/s3/cruiser-production/2019/08/88b9ad61-1f30-4029-a8e3-4dd6bcb6424e/640_index.webp
+
+  https://pbs.twimg.com/media/ELGg7l4XsAAzCTq?format=jpg&name=large
+
+  https://resize-parismatch.lanmedia.fr/f/webp/r/625,417,forcex,center-middle/img/var/news/storage/images/paris-match/actu/societe/greve-a-la-ratp-14-lignes-de-metro-fermees-dimanche-10-lundi-1663495/27129292-1-fre-FR/Greve-a-la-RATP-14-lignes-de-metro-fermees-dimanche-10-lundi.jpg
+
+  https://www.befrenchie.fr/wp-content/uploads/2020/09/nounours-gobelins.jpg
+
+
+-->

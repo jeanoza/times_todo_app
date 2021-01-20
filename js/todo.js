@@ -121,7 +121,6 @@ function handleSubmit(event) {
     toDoInput.value = "";
     paintToDo(currentValue, Date.now());
     
-
 }
 
 function loadToDos() {
