@@ -45,7 +45,7 @@
   width: 25vw;
   min-width: 140px;
   height: 40vh;
-  background-color: rgba(241, 196, 15, 0.2);
+  background-color: var(--lemon);
   border-radius: 30px;
   padding: 10px 10px;
   font-size: 18px;

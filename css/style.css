@@ -3,6 +3,15 @@
 @import "reset.css";
 @import "container.css";
 
+:root {
+  --lemon: rgba(255, 234, 167, 0.7);
+  --yarrow: rgba(253, 203, 110, 0.5);
+  --leaf: rgba(0, 184, 148, 0.5);
+  --greenish: rgba(85, 239, 196, 0.5);
+  --greenblue: rgba(116, 185, 255, 0.7);
+  --bluefonce: rgba(9, 132, 227, 0.5);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -22,6 +31,25 @@ body {
 .container__greetingform,
 .container__greetings {
   display: none;
+}
+
+.weather-bar {
+  position: absolute;
+  top: 12vh;
+  right: 24vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather-bar img {
+  width: 75px;
+  height: 75px;
+}
+
+.weather-bar__city {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .showing {
