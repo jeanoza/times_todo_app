@@ -8,10 +8,7 @@
 .container__clock {
   margin-top: 20vh;
   font-size: 90px;
-  /* font-style: italic; */
-  font-weight: 700;
   margin-bottom: 30px;
-  /* color: rgb(255, 255, 255); */
 }
 
 .container__greetings {

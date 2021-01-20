@@ -8,18 +8,28 @@
   <body>
     <h1>Random Number Game</h1>
     <div class="js-main">
-      <h3 class="js-main__header">Generate a number between...</h3>
-      <input type="range" />
+      <h3 class="js-main__header">Generate a number between 0 and 10</h3>
+      <input
+        class="js-main__range"
+        type="range"
+        value="10"
+        min="0"
+        max="200"
+        list="tickmarks"
+        step="1"
+      />
+      <datalist id="tickmarks">
+        <option value="50"></option>
+        <option value="100"></option>
+        <option value="150"></option>
+        <option value="200"></option>
+      </datalist>
       <div class="js-main__guess">
-        <span>Guess the number:</span>
-        <input type="text" />
-        <button>play!</button>
+        <label for="inputNumber">Guess the number:</label>
+        <input id="inputNumber" type="number" style="width: 50px" />
+        <button>Play!</button>
       </div>
-      <div class="js-main__choice">
-        <span>You chose:--</span>
-        <span>The machine chose:--</span>
-      </div>
-      <span class="js-main__result"> You lost! / you win! </span>
+      <div class="js-main__choice"></div>
     </div>
     <script src="index.js"></script>
   </body>
