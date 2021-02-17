@@ -7,7 +7,7 @@ practice vanila_js
 - [x] currentUser : user name
 - [x] coords : geography infos(latitude & longitude) for call & receive weather api. 
 
-## function
+## Functions
 - [x] move ToDo List to Achevés
 - [x] move Achevés to ToDo List
 - [x] delete lists on Web Page
