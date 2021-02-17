@@ -3,7 +3,7 @@ App to practice vanila_js
 
 Github Page: https://jeanoza.github.io/times_todo_app/
 
-##Screen Shot
+## Screen Shot
 ![screen](https://user-images.githubusercontent.com/64304902/108256465-dbe44700-715d-11eb-9dd8-81d76abe3a0e.png")
 
 ## Local Storage Data
