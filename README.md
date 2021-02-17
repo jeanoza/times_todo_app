@@ -4,7 +4,7 @@ App to practice vanila_js
 Github Page: https://jeanoza.github.io/times_todo_app/
 
 ## Screen Shot
-![screen](https://user-images.githubusercontent.com/64304902/108256465-dbe44700-715d-11eb-9dd8-81d76abe3a0e.png")
+![screen](https://user-images.githubusercontent.com/64304902/108256955-6dec4f80-715e-11eb-8d3e-7fbe7cfe6634.png)
 
 ## Local Storage Data
 - [x] toDos: to do list
