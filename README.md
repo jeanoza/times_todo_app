@@ -1,5 +1,7 @@
 # times_todo_app
-practice vanila_js
+App to practice vanila_js
+
+Github Page: https://jeanoza.github.io/times_todo_app/
 
 ## Local Storage Data
 - [x] toDos: to do list
@@ -8,9 +10,9 @@ practice vanila_js
 - [x] coords : geography infos(latitude & longitude) for call & receive weather api. 
 
 ## Functions
+- [x] Local Time Tab
 - [x] move ToDo List to Achevés
 - [x] move Achevés to ToDo List
 - [x] delete lists on Web Page
 - [x] delete lists on Local Storage
 
-Github Page: https://jeanoza.github.io/times_todo_app/
